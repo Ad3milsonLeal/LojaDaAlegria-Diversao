@@ -1,0 +1,168 @@
+.sc {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-top: -20px;
+    height: 350px;
+}
+
+.sc img {
+    height: 200px;
+    width: 350px;
+    transition: all 0.3s ease-in-out;
+}
+
+.sc img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.sc .lista {
+    margin-top: -40px;
+    padding: 25px;
+}
+
+.kids {
+    background-color: #ffffff;
+}
+
+.tainer {
+    display: flex;
+    align-items: center;
+    color: rgb(14, 13, 13);
+    /* Cor do texto */
+    margin: 0;
+    /* Remove a margem padrão */
+    margin-left: 1px;
+    /* Adiciona espaço na margem esquerda */
+    font-size: 14px;
+    /* Tamanho da fonte */
+    height: 140px;
+}
+
+.tainer h1 {
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.tainer h1:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.topo img {
+    width: 310px;
+    height: 180px;
+    /* Defina a altura desejada */
+    transition: all 0.3s ease-in-out;
+}
+
+.topo img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.mae {
+    display: flex;
+    gap: 50px;
+}
+
+.botoes .posicao {
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    margin-left: 300px;
+
+}
+
+.lista {
+    width: 260px;
+    font-size: 14px;
+    align-items: center;
+    height: 120px;
+    margin-top: 15px;
+}
+
+.lista .componentes {
+    background-color: rgb(204, 204, 95);
+    width: 260px;
+    font-size: 17px;
+    align-items: center;
+    height: 285px;
+    width: 310px;
+    margin-left: -25px;
+    
+}
+
+.lista li {
+    margin-left: 50px;
+    width: 1px font-size;
+
+}
+
+.lista h2 {
+    margin-left: 80px;
+    font-size: 20px;
+    margin-top: -70px;
+}
+
+.topo {
+    background-color: aqua;
+    display: flex;
+    gap: 250px;
+}
+
+.secao {
+    background-color: rgb(250, 161, 161);
+    text-align: center;
+}
+
+.secao1 {
+    background-color: rgb(250, 161, 161);
+    width: 310px;
+    margin-left: -25px;
+}
+
+.secao1 h2 {
+    margin-right: -100px;
+}
+
+button {
+    background-color: rgb(95, 247, 95);
+    width: 120px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003399;
+}
+
+.tla button {
+    background-color: rgb(250, 161, 161);
+    width: 150px;
+}
+
+.bton button {
+    background-color: gray;
+    width: 120px;
+}
+
+.btt button {
+    background-color: gray;
+    width: 120px;
+}
+
+.btt button:hover {
+    background-color: #003399;
+}
+
+.foto img {
+    transition: all 0.3s ease-in-out;
+}
+
+.foto img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
